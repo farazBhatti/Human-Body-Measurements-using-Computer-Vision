@@ -1,0 +1,9 @@
+#Run entire measuring pipeline
+python3 inference.py -i sample_data/input/ramzan1.jpeg -ht 170
+
+
+
+
+
+
+
