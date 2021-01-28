@@ -14,3 +14,9 @@ It maps single input image onto 3-dimientional model using 3D human reconstructi
 `python3 inference.py -i <path to Image1> -ht <height in cm>`
 
  
+## Acknowledgment
+[HMR](https://github.com/akanazawa/hmr)
+
+[Deep lab v3 +](https://github.com/rishizek/tensorflow-deeplab-v3)
+
+[Humanbody shape](https://github.com/1900zyh/3D-Human-Body-Shape)
