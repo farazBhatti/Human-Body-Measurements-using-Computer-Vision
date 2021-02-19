@@ -12,8 +12,14 @@ It maps single input image onto 3-dimientional model using 3D human reconstructi
 
 
 ## Inference
-`python3 inference.py -i <path to Image1> -ht <height in cm>`
+1. Download the pre-trained models
 
+`wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz`
+
+and save it in 'models' folder.
+
+2. Run inference
+`python3 inference.py -i <path to Image1> -ht <height in cm>`
  
 ## Acknowledgment
 [HMR](https://github.com/akanazawa/hmr)
