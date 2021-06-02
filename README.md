@@ -13,6 +13,7 @@ It maps single input image onto 3-dimientional model using 3D human reconstructi
 
 ## Inference
 1. Download the pre-trained models
+Type the following command on terminal
 
 `wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz`
 
