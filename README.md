@@ -22,7 +22,12 @@ and save it in 'models' folder.
 2. Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in data(make new one) folder.
 
 
-3. Run inference
+3. Install packages
+   `pip install -r requirements.txt`
+   or
+   `pip3 install -r requirements.txt`
+
+4. Run inference
 `python3 inference.py -i <path to Image1> -ht <height in cm>`
  
 ## Acknowledgment
