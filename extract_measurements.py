@@ -93,7 +93,7 @@ def calc_measure(cp, vertex,height):#, facet):
 
     measure_list.append(length * 100)# * 1000
   
-  #measure_list = float(height)*(measure_list/measure_list[0])
+  measure_list = float(height)*(measure_list/measure_list[0])
 #  print("measure list = ",float(height)*(measure_list/measure_list[0])) 
   measure_list[8] = measure_list[8] * 0.36#reducing the error in measurement added due to unarranged vertices
   measure_list[3] = measure_list[3] * 0.6927
