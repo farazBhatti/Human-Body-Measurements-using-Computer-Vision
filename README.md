@@ -19,7 +19,7 @@ Type the following command on terminal to download pretrained model
 
 and save it in 'models' folder.
 
-2. Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in data folder (make new one).
+2. Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in data folder.
 
 
 3. Install packages
