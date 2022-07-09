@@ -13,13 +13,13 @@ It maps single input image onto 3-dimientional model using 3D human reconstructi
 
 ## Inference
 1. Download the pre-trained models.
-Type the following command on terminal
+Type the following command on terminal to download pretrained model
 
 `wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz`
 
 and save it in 'models' folder.
 
-2. Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in data(make new one) folder.
+2. Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in data folder (make new one).
 
 
 3. Install packages
