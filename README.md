@@ -4,8 +4,10 @@ Anthropometric measurement extraction
 ![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/img1.png)
 
 
-Getting human body measurements from image is a very hard problem. This repository provides a starting solution for any one who is working in this domain.
-It maps single input image onto 3-dimientional model using 3D human reconstruction and then extracts body measurements such as waist, chest etc. All meausrements are in centimeters. 3D reconstruction is done using [HMR](https://github.com/akanazawa/hmr). Tested on tensorflow==1.13.1.
+Getting human body measurements from image is a very hard problem. This repository contains the source code and related files for a system that uses computer vision and 3D modeling techniques to accurately measure various body parts of a human subject.
+
+The system is built on top of the OpenCV and Tensorflow libraries, which provide powerful tools for image processing, feature detection, and 3D reconstruction. It takes single image as input of a human subject and extracts key points. These key points are then used to build a 3D model of the subject, which can be used to precisely measure different body parts such as arm length, waist circumference, and hip width.
+This repository provides a starting solution for any one who is working in this domain. All meausrements are in centimeters. 3D reconstruction is done using [HMR](https://github.com/akanazawa/hmr). Tested on tensorflow==1.13.1.
 
 ![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/Screenshot%20from%202021-01-27%2014-34-16.png)
 
