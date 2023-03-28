@@ -11,7 +11,7 @@ This repository provides a starting solution for any one who is working in this 
 
 ![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/Screenshot%20from%202021-01-27%2014-34-16.png)
 
-
+![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/Screenshot%20from%202023-03-28%2020-12-31.png)
 
 ###  Download pre-trained model
 Type the following command on terminal to download pretrained model
@@ -29,6 +29,10 @@ Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measuremen
    `pip install -r requirements.txt`
    or
    `pip3 install -r requirements.txt`
+
+## Quick Demo / Inference / Jupyter NoteBook
+A jupyter notebook has been added for those who quickly want to get inference without much hassel. Simply change path to your input image.
+Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this notebook.
 
 ## Inference
 `python3 inference.py -i <path to Image1> -ht <height in cm>`
