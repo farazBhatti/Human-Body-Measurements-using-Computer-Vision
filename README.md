@@ -1,7 +1,7 @@
 # Human body measurement using computer vision/ 3D modeling
 Anthropometric measurement extraction
 
-![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/img1.png)
+![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/image_1.png)
 
 
 Getting human body measurements from image is a very hard problem. This repository contains the source code and related files for a system that uses computer vision and 3D modeling techniques to accurately measure various body parts of a human subject.
