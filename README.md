@@ -37,9 +37,13 @@ Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this note
 ## Inference
 `python3 inference.py -i <path to Image1> -ht <height in cm>`
  
+## My LinkedIn
+[FarazBhatti](https://www.linkedin.com/in/farazahmadbhatti/)
+
 ## Acknowledgment
 [HMR](https://github.com/akanazawa/hmr)
 
 [Deep lab v3 +](https://github.com/rishizek/tensorflow-deeplab-v3)
 
 [Humanbody shape](https://github.com/1900zyh/3D-Human-Body-Shape)
+
