@@ -1,5 +1,9 @@
 MIT License
 
+This code base itself is MIT, but please follow the license for HMR, DeepLab-v3,
+and 3D Human Body.
+
+
 Copyright (c) 2023 Faraz Ahmad
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
