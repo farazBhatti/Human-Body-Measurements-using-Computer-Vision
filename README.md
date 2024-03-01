@@ -22,7 +22,7 @@ and save it in 'models' folder.
 
 ### CustomBodyPoints
 
-Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in data folder.
+Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt) text file and place it in the data folder.
 
 ### Install Packages
 
@@ -31,7 +31,7 @@ Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measuremen
    `pip3 install -r requirements.txt`
 
 ## Jupyter NoteBook / Quick Demo 
-A jupyter notebook has been added for those who quickly want to get inference without much hassel. Simply change path to your input image.
+A Jupyter notebook has been added and updated for those who quickly want to get inference without much hassle. Simply change the path to your input image.
 Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this notebook.
 
 ## Inference
