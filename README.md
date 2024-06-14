@@ -14,7 +14,7 @@ This repository provides a starting solution for any one who is working in this 
 ![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/Screenshot%20from%202023-03-28%2020-12-31.png)
 
 ###  Download pre-trained model
-Type the following command on terminal to download pretrained model
+Type the following command on the terminal to download pre-trained model
 
 `wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz`
 
@@ -42,6 +42,7 @@ Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this note
 
 ## Acknowledgment
 [HMR](https://github.com/akanazawa/hmr)
+[Remove_background](https://github.com/farazBhatti/bg_remove_GUI)
 
 [Deep lab v3 +](https://github.com/rishizek/tensorflow-deeplab-v3)
 
