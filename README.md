@@ -42,6 +42,7 @@ Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this note
 
 ## Acknowledgment
 [HMR](https://github.com/akanazawa/hmr)
+
 [Remove_background](https://github.com/farazBhatti/bg_remove_GUI)
 
 [Deep lab v3 +](https://github.com/rishizek/tensorflow-deeplab-v3)
