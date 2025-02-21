@@ -33,7 +33,7 @@ Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measuremen
    or
    `pip3 install -r requirements.txt`
 
-## Jupyter NoteBook / Quick Demo 
+## Easy to Run / Jupyter NoteBook / Quick Demo 
 A Jupyter notebook has been added and updated for those who quickly want to get inference without much hassle. Simply change the path to your input image.
 Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this notebook.
 
