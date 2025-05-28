@@ -37,11 +37,18 @@ Download [CustomBodyPoints](https://github.com/farazBhatti/Human-Body-Measuremen
 A Jupyter notebook has been added and updated for those who quickly want to get inference without much hassle. Simply change the path to your input image.
 Thanks to [Hamza Khalil](https://github.com/hamzakhalil798) for adding this notebook.
 
+
 ## Inference
 `python3 inference.py -i <path to Image1> -ht <height in cm>`
  
 ## My LinkedIn
 [FarazBhatti](https://www.linkedin.com/in/farazahmadbhatti/)
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=farazBhatti/Human-Body-Measurements-using-Computer-Vision&type=Date)](https://www.star-history.com/#farazBhatti/Human-Body-Measurements-using-Computer-Vision&Date)
+
 
 ## Acknowledgment
 [HMR](https://github.com/akanazawa/hmr)
