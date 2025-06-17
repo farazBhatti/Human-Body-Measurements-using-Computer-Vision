@@ -1,0 +1,19 @@
+{
+  "name": "Human Body Measurements TF 1.x",
+  "image": "mcr.microsoft.com/devcontainers/python:3.7",
+
+  // OSTATECZNA KOMENDA INSTALACYJNA - ZAWIERA WSZYSTKO
+  "postCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends git libgl1-mesa-dev wget && pip install tensorflow==1.13.1 opencv-python numpy==1.16.1 scipy==1.2.1 scikit-image pyopengl==3.1.0 protobuf==3.20.* && git clone https://github.com/polmorenoc/opendr.git && cd opendr && python setup.py install && cd .. && wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz && wget https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/files/5886235/customBodyPoints.txt -O data/customBodyPoints.txt",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
