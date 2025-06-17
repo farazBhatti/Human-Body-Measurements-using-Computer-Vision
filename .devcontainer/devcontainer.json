@@ -1,0 +1,31 @@
+{
+  "name": "Human Body Measurements TF 1.x",
+  
+  // Określa obraz bazowy, który ma zostać użyty.
+  // Wybieramy oficjalny obraz od Microsoft z Pythonem 3.7,
+  // ponieważ jest on kompatybilny z TensorFlow 1.x.
+  "image": "mcr.microsoft.com/devcontainers/python:3.7",
+
+  // Komenda, która zostanie wykonana automatycznie po stworzeniu środowiska.
+  // Instaluje ona wszystkie niezbędne biblioteki Pythona w konkretnych,
+  // wymaganych przez projekt wersjach.
+  "postCreateCommand": "pip install tensorflow==1.13.1 opencv-python numpy==1.16.1 scipy==1.2.1 scikit-image pyopengl==3.1.0 protobuf==3.20.*",
+
+  // Personalizacja edytora VS Code wewnątrz Codespaces.
+  "customizations": {
+    "vscode": {
+      // Ustawienia edytora
+      "settings": {
+        // Wskazuje edytorowi, której instalacji Pythona ma używać
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      // Lista rozszerzeń do automatycznej instalacji
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+
+  // Uruchamia kontener jako standardowy użytkownik 'vscode' zamiast 'root'
+  "remoteUser": "vscode"
+}
