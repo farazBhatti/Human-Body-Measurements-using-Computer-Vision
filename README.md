@@ -1,7 +1,7 @@
 # Human body measurement using computer vision/ 3D modeling
 Anthropometric measurement extraction
 
-![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/image_1_50.png)
+![alt text](https://github.com/farazBhatti/Human-Body-Measurements-using-Computer-Vision/blob/master/sample_data/input/display_image.png)
 
 
 
